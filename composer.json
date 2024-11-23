@@ -1,0 +1,25 @@
+{
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+      {
+        "name": "bytedance"
+      }
+    ],
+    "require": {
+      "php": ">=7.0",
+      "guzzlehttp/guzzle": "*",
+      "ext-json": "*",
+      "google/protobuf": "*",
+      "google/gax": "*",
+      "ext-openssl": "*",
+        "volcengine/volc-sdk-php": "^1.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Volc\\": "src/",
+        "Test\\": "tests/"
+      }
+    },
+    "description": ""
+  }
